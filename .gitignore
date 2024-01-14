@@ -172,6 +172,7 @@ settings.toml
 settings.yaml
 secrets.toml
 secrets.yaml
+*.secrets.json
 
 # Misc stuff
 .DS_Store
