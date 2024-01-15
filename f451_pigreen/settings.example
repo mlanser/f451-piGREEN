@@ -38,5 +38,5 @@ SLEEP = 600             # Delay in seconds until screen is blanked
 FREQ = 600              # Delay in seconds between uploads to cloud
 DELAY = 300             # Delay in seconds before first upload to cloud
 WAIT = 1                # Delay in seconds between sensor reads
-THROTTLE = 120          # Additional delay in seconds on 'ThottlingError'
+THROTTLE = 120          # Additional delay in seconds on 'ThrottlingError'
 ROUNDING = 1            # Precision (num decimals) for uploaded data

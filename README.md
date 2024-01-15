@@ -4,7 +4,7 @@
 
 The 'settings.toml' file holds various custom application settings and secrets (e.g. Adafruit IO keys, etc.) and this file should **NOT** be included in 'git' commits.
 
-It is recommended to copy the '*settings.example*' to '*settings.toml*' and then customize the values in '*settings.toml*' as nedeed for the specific device that the application is running on.
+It is recommended to copy the '*settings.example*' to '*settings.toml*' and then customize the values in '*settings.toml*' as needed for the specific device that the application is running on.
 
 ### Adafruit IO settings
 
@@ -41,7 +41,7 @@ It is recommended to copy the '*settings.example*' to '*settings.toml*' and then
 - **TODO - DELAY**: 'int' - delay in seconds between uploads to Adafruit IO.
     - Smaller number means more freq uploads and higher data rate
 - **TODO - WAIT**: 'int' - delay in seconds between sensor reads
-- **TODO - THROTTLE**: 'int' - additional delay in seconds to be applied on Adafruit IO 'ThottlingError'
+- **TODO - THROTTLE**: 'int' - additional delay in seconds to be applied on Adafruit IO 'ThrottlingError'
 
 - **TODO - PROGRESS**: 'string' - on | off
     - "on" - *show 'wait for upload' progress bar on LED*
